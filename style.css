@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+#banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.container {
+  width: 100%;
+}
+
+.image {
+  box-sizing: border-box;
+  width: 33.33%;
+  float: left;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 100px;
+}
+
+.grow:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+body {
+  background-image: url("rRaster_peach_mirror.png");
+}
+
+img {
+  border: 20px solid white;
+  width: 400px;
+  height: 400px;
+}
+
+h1 {
+  color: white;
+  background-color: #fac9c4;
+  font-family: fantasy;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+
+p {
+  background-color: #fac9c4;
+  color: white;
+  font-family: fantasy;
+  display: block;
+  width: 400px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  vertical-align: middle;
+}
