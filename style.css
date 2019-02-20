@@ -20,7 +20,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 100px;
+  padding: 75px;
 }
 
 .grow:hover {
@@ -30,7 +30,8 @@
 }
 
 body {
-  background-image: url("rRaster_peach_mirror.png");
+  background-color: #fac9c4;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 img {
@@ -42,7 +43,6 @@ img {
 h1 {
   color: white;
   background-color: #fac9c4;
-  font-family: fantasy;
   font-weight: bold;
   font-size: 40px;
   text-align: center;
@@ -51,12 +51,11 @@ h1 {
 p {
   background-color: #fac9c4;
   color: white;
-  font-family: fantasy;
   display: block;
   width: 400px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  padding: 15px;
+  padding: 10px;
   vertical-align: middle;
 }
